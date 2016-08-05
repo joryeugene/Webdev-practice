@@ -14,7 +14,7 @@ body {
   color: #e78e9b;
   font-size: 2.5rem;
   font-weight: bold;
-  letter-spacing: 1.5rem;
+  letter-spacing: 0.8rem;
   margin-left: 0.7rem;
 }
 
@@ -35,9 +35,12 @@ main.row {
   padding: 1rem;
 }
 
+h1 {
+  padding-top: 2rem;
+}
+
 h1, h3 {
   color: #ffffff;
-  font-weight: bold;
   letter-spacing: 0.1rem;
 }
 
