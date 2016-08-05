@@ -1,10 +1,30 @@
+/*Jory Eugene Pestorious*/
 body {
+  background-color: #f4a1ad;
   font-family: 'Comfortaa', serif;
   font-size: 15px;
 }
 
-.navbar-brand {
+.navbar {
+  background-color: #ffffff;
+  border: none;
+}
+
+.navbar-header a.navbar-brand {
+  color: #e78e9b;
   font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 1.5rem;
+  margin-left: 0.7rem;
+}
+
+#collapsed-navbar a {
+  color: #e78e9b;
+  font-size: 2rem;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #e78e9b;
 }
 
 .navbar {
@@ -15,8 +35,17 @@ main.row {
   padding: 1rem;
 }
 
+h1, h3 {
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
 .col-xs-12 p {
-  padding: 1rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #e78e9b;
 }
 
 .col-xs-12 p a {
