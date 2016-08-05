@@ -1,0 +1,24 @@
+body {
+  font-family: 'Comfortaa', serif;
+  font-size: 15px;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.navbar {
+  border-radius: 0 0 5px 5px;
+}
+
+main.row {
+  padding: 1rem;
+}
+
+.col-xs-12 p {
+  padding: 1rem;
+}
+
+.col-xs-12 p a {
+  margin: 1rem 1rem 0 0;
+}
