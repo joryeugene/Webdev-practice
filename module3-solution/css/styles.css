@@ -5,6 +5,10 @@ body {
   font-size: 15px;
 }
 
+.container-fluid {
+  padding: 0 5vw 2vw 5vw;
+}
+
 .navbar {
   background-color: #ffffff;
   border: none;
@@ -16,6 +20,7 @@ body {
   font-weight: bold;
   letter-spacing: 0.8rem;
   margin-left: 0.7rem;
+  padding-right: 0px;
 }
 
 #collapsed-navbar a {
@@ -29,10 +34,6 @@ body {
 
 .navbar {
   border-radius: 0 0 5px 5px;
-}
-
-main.row {
-  padding: 1rem;
 }
 
 h1 {
