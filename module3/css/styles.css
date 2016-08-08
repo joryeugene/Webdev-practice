@@ -90,23 +90,17 @@ body {
 }
 /*End of header*/
 
-.container .jumbotron {
-  border: 2px solid #3f0c1f;
-  box-shadow: 0 0 50px #3f0c1f;
-}
-
 @media (min-width: 1200px) { /*********Big********/
-  .container .jumbotron {
-    background: url('../images/jumbotron_1200.jpg') no-repeat;
-    height: 675px;
+  body {
+    background-color: green;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) { /*********Medium********/
-  .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
-    height: 558px;
+  body {
+    background-color: blue;
   }
+
   #logo-img {
     background: url('../images/restaurant-logo_medium.png') no-repeat;
     margin: 5px 5px 5px 0;
@@ -115,14 +109,17 @@ body {
   }
 }
 
-@media (min-width: 767px) and (max-width: 991px) { /*********Small********/
-  .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
-    height: 432px;
+@media (min-width: 768px) and (max-width: 991) { /*********Small********/
+  body {
+    background-color: pink;
   }
 }
 
 @media (max-width: 767px) { /*********Ex Small********/
+  body {
+    background-color: yellow;
+  }
+
   .navbar-brand {
     height: 80px;
     padding-top: 10px;
@@ -138,17 +135,12 @@ body {
   .navbar-brand img {
     height: 20px;
   }
+
   #collapsable-nav a  {
     font-size: 1.2em;
   }
   #collapsable-nav span  {
     font-size: 1em;
     margin-right: 5px;
-  }
-
-
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
   }
 }
