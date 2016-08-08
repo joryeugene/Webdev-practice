@@ -95,6 +95,51 @@ body {
   box-shadow: 0 0 50px #3f0c1f;
 }
 
+/*Tiles*/
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  border: 2px solid #3f0c1f;
+  margin-bottom: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#specials-tile {
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #000000;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0px 5px 5px black; /* Cover gap on Chrome */
+  color: #ffffff;
+  font-size: 1.6em;
+  opacity: 0.8;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
 @media (min-width: 1200px) { /*********Big********/
   .container .jumbotron {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
@@ -160,9 +205,19 @@ body {
     text-transform: uppercase;
     margin-top: 5px;
   }
-
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
+  }
+  #menu-tile, #specials-tile {
+    margin: 0 auto 15px;
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 479px) { /* Extra extra small, like iPhone 4 */
+  .navbar-brand h1 {
+    font-size: 6vw;
+    padding-top 5px;
   }
 }
