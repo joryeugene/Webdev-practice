@@ -145,7 +145,21 @@ body {
     font-size: 1em;
     margin-right: 5px;
   }
-
+  #call-btn > a {
+    background-color: #f6b319;
+    border: 2px solid #ffffff;
+    color: #951c49;
+    display: block;
+    font-size: 1.5em;
+    margin: 0 20px;
+    padding: 10px;
+  }
+  #xs-deliver {
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
 
   .container .jumbotron {
     margin-top: 30px;
