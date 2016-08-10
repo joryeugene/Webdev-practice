@@ -133,11 +133,39 @@ body {
   width: 100%;
 }
 
+.panel-footer {
+  background-color: #222222;
+  border-top: 0;
+  margin-top: 30px
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
 
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
 
+#hours, #address {
+  line-height: 2;
+}
 
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
 
+#address p {
+  color: #557c3e;
+  font-size: 0.8em;
+  line-height: 1.8;
+}
 
+#testimonials {
+  font-style: italic;
+}
+
+#testimonials p:last-child {
+  margin-top: 25px;
+}
 
 
 @media (min-width: 1200px) { /*********Big********/
@@ -212,6 +240,16 @@ body {
   #menu-tile, #specials-tile {
     margin: 0 auto 15px;
     max-width: 360px;
+  }
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:last-child {
+    margin-bottom: 0;
+  }
+  .panel-footer section hr {
+    width: 50%;
   }
 }
 
