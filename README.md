@@ -1,6 +1,6 @@
 ## Webdev Practice
 
-This is my work done while taking the **HTML, CSS, and Javascript for Web Developers** _Coursera_ course.
+This is some of my work done while taking the Johns Hopkins University **HTML, CSS, and Javascript for Web Developers** _Coursera_ course.
 
 * **Module 1** - No assignment
 * **Module 2** - Responsive design assignment utilizing _media queries_
@@ -9,3 +9,5 @@ This is my work done while taking the **HTML, CSS, and Javascript for Web Develo
   * Homework solution [LINK](http://jorypestorious.com/coursera-webdev/module3)
 * **Module 4** - Nothing to look at.... just practicing _JavaScript IIFEs_
   * Homework solution [LINK](http://jorypestorious.com/coursera-webdev/module4)
+* **Module 4** - Nothing to look at.... just practicing _JavaScript IIFEs_
+  * Homework solution [LINK](http://jorypestorious.com/coursera-webdev/module5)
