@@ -15,15 +15,15 @@ var dc = {};
 
 var homeHtmlUrl = "snippets/home-snippet.html";
 var allCategoriesUrl =
-  "https://davids-restaurant.herokuapp.com/categories.json";
+  "http://davids-restaurant.herokuapp.com/categories.json";
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
 var categoryHtml = "snippets/category-snippet.html";
 var menuItemsUrl =
-  "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
+  "http://davids-restaurant.herokuapp.com/menu_items.json?category=";
 var menuItemsTitleHtml = "snippets/menu-items-title.html";
 var menuItemHtml = "snippets/menu-item.html";
 
-// Convenience function for inserting innerHTML for 'select'
+// Convinience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
   var targetElem = document.querySelector(selector);
   targetElem.innerHTML = html;
@@ -54,7 +54,7 @@ var switchMenuToActive = function () {
 
   // Add 'active' to menu button if not already there
   classes = document.querySelector("#navMenuButton").className;
-  if (classes.indexOf("active") === -1) {
+  if (classes.indexOf("active") == -1) {
     classes += " active";
     document.querySelector("#navMenuButton").className = classes;
   }
@@ -63,11 +63,13 @@ var switchMenuToActive = function () {
 // On page load (before images or CSS)
 document.addEventListener("DOMContentLoaded", function (event) {
 
+
+// On first load, show home view
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
   buildAndShowHomeHTML,
-  true); // Explicitly setting the flag to get JSON from server processed into an object literal
+  true); // Explicitely setting the flag to get JSON from server processed into an object literal
 });
 
 // Builds HTML for the home page based on categories array
@@ -119,7 +121,7 @@ dc.loadMenuItems = function (categoryShort) {
 };
 
 
-// Builds HTML for the categories page based on the data
+// Builds HTML for the categiries page based on the data
 // from the server
 function buildAndShowCategoriesHTML (categories) {
   // Load title snippet of categories page
